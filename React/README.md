@@ -17,7 +17,7 @@ const [name,setName]=useState("");
 
 function handleSubmit(e)
 {
-e.prevent default();
+e.preventdefault();
 //this will ensure that page does not reload when sumbit is clicked because it is a single page application
 
 if(!name) return;
