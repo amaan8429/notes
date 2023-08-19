@@ -30,6 +30,19 @@ print("I am Amaan \"Hello World\" everyone")
 
 here \" is the escape sequence characters
 
+another way
+
+print('I am Amaan "Hello world" everyone')
+
+here i used single quote for bigger string.
+output=
+I am Amaan "Hello world" everyone
+
+ANOTHER MASTER WAY
+
+JUSt enclose the string in triple single or double quotes .
+this has two benifits . agar string divided hai bht sari line me to \n bhi nhi lagana padega aur agar beech me koi double quotes aa rhe honge to vo bhi handle ho jayega.
+
 variations of print statement
 
 Other Parameters of Print Statement
@@ -118,3 +131,38 @@ how to give output in python
 print("The value of", a, "+", 3, "is: ", a + b)
 
 comma is just the replacement of + from java
+
+taking input in python
+
+a = input();
+
+now user can input anything in a but what user will input will be a string .
+so if you want to input two numbers and add them then you need to typecast those numbers to integers to add them.
+
+if you want to show a fancy line for input like "enter a number "
+
+a = input("enter a number:")
+
+Looping in Python
+
+name="Amaan"
+for character in name:
+print(character)
+
+Strings in Python
+
+fruit = "Mango"
+mangoLen = len(fruit)
+print(mangoLen)
+Output = 5
+print(fruit[0:4]) # including 0 but not 4
+Output= Mang
+print(fruit[1:4]) # including 1 but not 4
+Output = ang
+print(fruit[:5])
+0 nhi lagaya to automatically 0 lag jayega so it is same as print(fruit[0:5])
+print(fruit[0:-3])
+jab minus aa jayega to means print(fruit[0:len(fruit)-3])
+so it same as print(fruit[0:2])
+print(fruit[:-3])
+0 nhi lagaya to automatically 0 lag jayega
